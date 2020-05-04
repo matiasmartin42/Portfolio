@@ -18,13 +18,7 @@
 
 
 <body>
-
-
-
-
     <div class="container">
-
-
         <nav class="navbar navbar-expand-md">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
                 aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,115 +27,112 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="inicio.html">Inicio</a>
+                        <a class="nav-link" href="inicio.php">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sobre mi.html">Sobre mí</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="proyecto.html">Proyectos</a>
+                        <a class="nav-link active" href="sobre mi.php">Sobre mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
+                        <a class="nav-link" href="proyecto.php">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.php">Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
-
-
-
-
-
-
-
-
-        <section id="contacto">
-            <div class="row py-sm-5 py-3">
-                <div class="col-12">
-                    <h1>Mis Proyectos</h1>
-                </div>
-            </div>
+        <section id="sobre mi">
             <div class="row">
                 <div class="col-12 col-sm-6">
-                    <p>Estos son algunos de los trabajos que he realizado:</p>
+                    <h1>Sobre mi</h1>
+                    <h2>Desarrollador Fullstack</h2>
+                    <a href="" class="btn my-4" target="_blank">Descargar CV</a>
+                </div>
+                <div class="col-sm-3 col-9 mx-5">
+                    <img src="images/fotoprueba.jpg" alt="Matias Gabriel Martin" title="Matias Gabriel Martin"
+                        class="img-fluid img-circle">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-sm-6 px-4">
+            <div class="row my-sm-4 my-3">
+                <div class="col-sm-6 col-12 px-2 my-2">
                     <div class="bg-white">
-                        <div class="row">
+                        <div class="p-3"><i class="fas fa-code"></i></div>
+                        <div class="row px-3">
                             <div class="col-12">
-                                <img src="images/abmclientes.png" alt="ABM Cliente" class="img-fluid">
-                                <h2>ABM Clientes</h2>
-                                <p>Alta, Baja, modificación de un registro de clientes Realizado en HTML,
-                                    CSS, PHP,Bootstrap y Json.</p>
+                                <h3>PROGRAMACIÓN</h3>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-6 mx-2">
-                                <a href="" class="btn">Ver online</a>
-                            </div>
-                            <div class="col-12 text-right">
-                                <a href="https://github.com">Codigo Fuente</a>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 px-4">
-                    <div class="bg-white">
-                        <div class="row">
+                        <div class="row p-3">
                             <div class="col-12">
-                                <img src="images/sistema-admin.png" alt="ABM Sistema" class="img-fluid">
-                                <h2>Proyecto integrador</h2>
-                                <p>Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML,
-                                    CSS, con panel administrador, gestor de usuarios, módulo de permisos y
-                                    funcionalidades a fines.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 mx-2">
-                                <a href="" class="btn">Ver online</a>
-                            </div>
-                            <div class="col-12 text-right">
-                                <a href="https://github.com">Codigo Fuente</a>
-
+                                <p>HTML, CSS, Bootstrap, PHP, POO, MVC, Framework Laravel, Javascript, jQuery, React.js,
+                                    AJAX, REST API, WSDL, JSON, C, C++, ASP.NET, C#.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 px-4">
+                <div class="col-sm-6 col-12 px-2 my-2">
                     <div class="bg-white">
-                        <div class="row">
+                        <div class="p-3"><i class="fas fa-database"></i></div>
+                        <div class="row px-3">
                             <div class="col-12">
-                                <img src="images/abmventas.png" alt="ABM ventas" class="img-fluid">
-                                <h2>Sistema de gestion de ventas</h2>
-                                <p>Gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC, Bootstrap,
-                                    Js, Ajax, jQuery y MySQL de base de datos.</p>
+                                <h3>BASE DE DATOS</h3>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-6 mx-2">
-                                <a href="" class="btn">Ver online</a>
-                            </div>
-                            <div class="col-12 text-right">
-                                <a href="https://github.com">Codigo Fuente</a>
-
+                        <div class="row p-3">
+                            <div class="col-12">
+                                <p>MySQL/MariaDB, MS SQL Server, PostgreSQL, LDAP, Mongo DB.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-
+                <div class="col-sm-6 col-12 px-2 my-2">
+                    <div class="bg-white">
+                        <div class="p-3"><i class="fas fa-language"></i></div>
+                        <div class="row px-3">
+                            <div class="col-12">
+                                <h3>IDIOMAS</h3>
+                            </div>
+                        </div>
+                        <div class="row p-3">
+                            <div class="col-12">
+                                <p>INGLES - Intermediate B1<br>ESPAÑOL - Nativo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12 px-2 my-2">
+                    <div class="bg-white">
+                        <div class="p-3"><i class="fas fa-window-restore"></i></div>
+                        <div class="row px-3">
+                            <div class="col-12">
+                                <h3>SOFTWARE</h3>
+                            </div>
+                        </div>
+                        <div class="row p-3">
+                            <div class="col-12">
+                                <p>GIT, GitHub, Visual Code, Adobe Illustrator, Google Docs. Redmine.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12 px-2 my-2">
+                    <div class="bg-white">
+                        <div class="p-3"><i class="fas fa-puzzle-piece"></i></div>
+                        <div class="row px-3">
+                            <div class="col-12">
+                                <h3>HOBBIES</h3>
+                            </div>
+                        </div>
+                        <div class="row p-3">
+                            <div class="col-12">
+                                <p>Musica <br> Paisajes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
-
-
-
-
         </section>
+
 
 
 
@@ -153,7 +144,7 @@
 
         <footer>
             <div class="container">
-                <div class="row py-5">
+                <div class="row py-sm-5">
                     <div class="col-12 col-sm-4 text-left">
                         <a href="inicio.html">©Todos los derechos reservados<br>2020</a>
                     </div>
@@ -171,6 +162,9 @@
                 </div>
             </div>
         </footer>
+
+
+
     </div>
 </body>
 

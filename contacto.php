@@ -14,15 +14,9 @@
     <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 </head>
-
-
-
 <body>
-
-
-
-
     <div class="container">
+
         <nav class="navbar navbar-expand-md">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
                 aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,29 +25,64 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="inicio.html">Inicio</a>
+                        <a class="nav-link" href="inicio.php">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sobre mi.html">Sobre mí</a>
+                        <a class="nav-link" href="sobre mi.php">Sobre mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="proyecto.html">Proyectos</a>
+                        <a class="nav-link" href="proyecto.php">Proyectos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contacto.php">Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-
-
-
-
-
-
-
-
+        <section id="contacto">
+            <div class="row py-sm-5 py-3">
+                <div class="col-12">
+                    <h1>¡Trabajemos juntos!</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h2>Para más detalles sobre mi trabajo podés ver mi <a
+                            href="https://www.linkedin.com/in/matias-martin-304a801a7/" target="_blank">Linkedin</a>
+                        descargar mi CV o mandarme un mensaje.
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-6 form-group">
+                                <input type="text" class="form-control" id="txtNombre" name="txtNombre"
+                                    placeholder="NOMBRE" value="">
+                            </div>
+                            <div class="col-sm-6 col-12 form-group">
+                                <input type="email" id="txtCorreo" name="txtCorreo" class="form-control"
+                                    placeholder="CORREO" value="">
+                            </div>
+                            <div class="col-12 form-group">
+                                <input type="text" class="form-control" id="txtAsunto" name="txtAsunto"
+                                    placeholder="ASUNTO">
+                            </div>
+                            <div class="col-12 form-group">
+                                <textarea name="txtMensaje" id="txtMensaje" rows="7" class="form-control"
+                                    placeholder="MENSAJE" required=""></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <input type="submit" name="btnEnviar" value="ENVIAR" class="btn">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </section>
 
         <footer>
             <div class="container">
@@ -74,12 +103,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
 
         </footer>
     </div>
