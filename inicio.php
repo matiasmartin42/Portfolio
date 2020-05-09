@@ -45,8 +45,9 @@
         <section id="inicio">
             <div class="row">
                 <div class="col-12 col-sm-6">
-                    <h1>Hola!! <br> Bienvenidos a mi pagina web</h1>
+                    <h1>Hola!!<br>Bienvenidos a mi pagina web</h1>
                     <h2>Matias Gabriel Martin</h2>
+                    <a href="proyecto.php" class="btn">Conoce mis proyectos</a>
                 </div>
             </div>
         </section>

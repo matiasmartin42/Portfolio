@@ -22,7 +22,7 @@
         <nav class="navbar navbar-expand-md">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
                 aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon fa fa-bars"></span>
+                <span class="navbar-toggler-icon navbar-toggler-icon fa fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
@@ -87,7 +87,7 @@
                 </div>
                 <div class="col-sm-6 col-12 px-2 my-2">
                     <div class="bg-white">
-                        <div class="p-3"><i class="fas fa-language"></i></div>
+                        <div class="icon"><i class="fas fa-language"></i></div>
                         <div class="row px-3">
                             <div class="col-12">
                                 <h3>IDIOMAS</h3>

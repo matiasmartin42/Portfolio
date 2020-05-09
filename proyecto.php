@@ -66,10 +66,10 @@
                     <p>Estos son algunos de los trabajos que he realizado:</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-sm-6 px-4">
+            <div class="row py-3">
+                <div class="col-12 col-sm-6">
                     <div class="bg-white">
-                        <div class="row">
+                        <div class="row px-2">
                             <div class="col-12">
                                 <img src="images/abmclientes.png" alt="ABM Cliente" class="img-fluid">
                                 <h2>ABM Clientes</h2>
@@ -78,12 +78,12 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-6 mx-2">
+                            <div class="col-6 mx-3">
                                 <a href="" class="btn">Ver online</a>
                             </div>
                             <div class="col-12 text-right">
-                                <a href="https://github.com">Codigo Fuente</a>
-
+                                <a href="https://github.com/matiasmartin42">Codigo Fuente</a>
+                                
                             </div>
 
                         </div>
@@ -101,17 +101,17 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-6 mx-2">
+                            <div class="col-6 mx-3">
                                 <a href="" class="btn">Ver online</a>
                             </div>
                             <div class="col-12 text-right">
-                                <a href="https://github.com">Codigo Fuente</a>
-
+                                <a href="https://github.com/matiasmartin42">Codigo Fuente</a>
+                    
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 px-4">
+                <div class="col-12 col-sm-6">
                     <div class="bg-white">
                         <div class="row">
                             <div class="col-12">
@@ -122,11 +122,11 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-6 mx-2">
+                            <div class="col-6 mx-3">
                                 <a href="" class="btn">Ver online</a>
                             </div>
-                            <div class="col-12 text-right">
-                                <a href="https://github.com">Codigo Fuente</a>
+                            <div class="col-12 text-right ">
+                                <a href="https://github.com/matiasmartin42">Codigo Fuente</a>
 
                             </div>
                         </div>

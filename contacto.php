@@ -16,7 +16,6 @@
 </head>
 <body>
     <div class="container">
-
         <nav class="navbar navbar-expand-md">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
                 aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,10 +38,9 @@
                 </ul>
             </div>
         </nav>
-
         <section id="contacto">
-            <div class="row py-sm-5 py-3">
-                <div class="col-12">
+            <div class="row py-1 px-2">
+                <div class="col-12 mt-1">
                     <h1>¡Trabajemos juntos!</h1>
                 </div>
             </div>
@@ -83,8 +81,6 @@
                     </form>
                 </div>
         </section>
-
-
         <footer>
             <div class="container">
                 <div class="row py-sm-5">
@@ -107,5 +103,4 @@
         </footer>
     </div>
 </body>
-
 </html>

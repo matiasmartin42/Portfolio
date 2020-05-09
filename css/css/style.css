@@ -1,7 +1,6 @@
 body{
     background-color: #EEEEEE;
     font-family: "Montserrat", sans-serif;
-    line-height: 2rem;
 }
 h1{
     font-size: 50px;
@@ -28,6 +27,7 @@ h2 a{
     width: 45px;
     height: 37px;
     border-radius: 3px;
+    color: black
 }
 .navbar-nav{
     margin-top: 0px;
