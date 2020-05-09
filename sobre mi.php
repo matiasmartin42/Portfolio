@@ -146,7 +146,7 @@
             <div class="container">
                 <div class="row py-sm-5">
                     <div class="col-12 col-sm-4 text-left">
-                        <a href="inicio.html">©Todos los derechos reservados<br>2020</a>
+                        <a href="inicio.php">©Todos los derechos reservados<br>2020</a>
                     </div>
                     <div class="col-12 col-sm-4 text-center">
                         <a href="https://api.whatsapp.com/send?phone=541161421493&amp;text=Hola" target="_blank">

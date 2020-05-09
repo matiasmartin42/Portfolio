@@ -18,10 +18,6 @@
 
 
 <body>
-
-
-
-
     <div class="container">
         <nav class="navbar navbar-expand-md">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
@@ -46,6 +42,14 @@
             </div>
         </nav>
 
+        <section id="inicio">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h1>Hola!! <br> Bienvenidos a mi pagina web</h1>
+                    <h2>Matias Gabriel Martin</h2>
+                </div>
+            </div>
+        </section>
 
 
 
@@ -59,7 +63,7 @@
             <div class="container">
                 <div class="row py-sm-5">
                     <div class="col-12 col-sm-4 text-left">
-                        <a href="inicio.html">©Todos los derechos reservados<br>2020</a>
+                        <a href="inicio.php">©Todos los derechos reservados<br>2020</a>
                     </div>
                     <div class="col-12 col-sm-4 text-center">
                         <a href="https://api.whatsapp.com/send?phone=541161421493&amp;text=Hola" target="_blank">
