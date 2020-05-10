@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Sobre Mi</title>
     <link rel="stylesheet" href="css/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
@@ -19,33 +19,13 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-md">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon navbar-toggler-icon fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="inicio.php">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="sobre mi.php">Sobre mí</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="proyecto.php">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.php">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <?php $page = "sobre-mi";
+        include "nav.php"; ?> 
         <section id="sobre mi">
             <div class="row">
                 <div class="col-12 col-sm-6 my-5">
                     <h1>Sobre mi</h1>
-                    <h2>Desarrollador Fullstack</h2>
+                    <h2>Desarrollador FullStack, Recien empezando en el ambito de la programacion</h2>
                     <a href="" class="btn my-4" target="_blank">Descargar CV</a>
                 </div>
                 <div class="col-sm-3 col-9 mx-5">
@@ -125,7 +105,7 @@
                         </div>
                         <div class="row p-3">
                             <div class="col-12">
-                                <p>Musica <br> Paisajes</p>
+                                <p>Musica <br> Ver Paisajes <br> Deporte</p>
                             </div>
                         </div>
                     </div>

@@ -27,7 +27,7 @@ h2 a{
     width: 45px;
     height: 37px;
     border-radius: 3px;
-    color: black
+    color: #2D2D2D
 }
 .navbar-nav{
     margin-top: 0px;
@@ -100,7 +100,7 @@ footer i{
     border-bottom: 1px solid;
     border-radius: 0px;
 }
-.img-circle {
+.img-circle { /* Editar la foto para que se vea en circulo */
     margin: 5em auto;
     display: block;
     background-color: #fff;
@@ -108,7 +108,7 @@ footer i{
     box-shadow: inset 5px 5px 10px 0px rgba(209,209,209,0.63);
     border-radius: 50%;
 }
-@media (max-width: 700px) {/* Para mobile */
+@media (max-width:700px) {/* Para mobile */
     h1{
         font-size: 40px;
     }
@@ -116,7 +116,7 @@ footer i{
         font-size: 20px;
         line-height: 30px;
     }
-}
+}    
 .bg-blanco{
     background-color: white;
     height: 250px;
@@ -126,4 +126,10 @@ footer i{
 }
 span{
     text-decoration: underline;
+}
+.inicio{
+    background-image: url(../../images/Fondos-01.png);
+    background-size: cover;
+    height: 80vh;
+
 }

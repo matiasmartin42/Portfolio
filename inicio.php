@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="css/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
@@ -18,36 +18,15 @@
 
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-md">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="inicio.php">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sobre mi.php">Sobre mí</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="proyecto.php">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.php">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <section id="inicio">
-            <div class="row">
+    <div class="container inicio">
+    <?php $page = "inicio";
+    include "nav.php"; ?>
+        <section>
+            <div class="row py-5">
                 <div class="col-12 col-sm-6">
                     <h1>Hola!!<br>Bienvenidos a mi pagina web</h1>
                     <h2>Matias Gabriel Martin</h2>
-                    <a href="proyecto.php" class="btn">Conoce mis proyectos</a>
+                    <a href="proyecto.php" class="btn">Mira mis proyectos!!</a>
                 </div>
             </div>
         </section>
