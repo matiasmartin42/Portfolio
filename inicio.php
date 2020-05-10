@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="css/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/css/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/css/style.css">
@@ -51,43 +51,9 @@
                 </div>
             </div>
         </section>
-
-
-
-
-
-
-
-
-
-        <footer>
-            <div class="container">
-                <div class="row py-sm-5">
-                    <div class="col-12 col-sm-4 text-left">
-                        <a href="inicio.php">©Todos los derechos reservados<br>2020</a>
-                    </div>
-                    <div class="col-12 col-sm-4 text-center">
-                        <a href="https://api.whatsapp.com/send?phone=541161421493&amp;text=Hola" target="_blank">
-                            <i class="fab fa-whatsapp"></i></a>
-                        <a href="https://www.linkedin.com/in/matias-martin-304a801a7/" target="_blank">
-                            <i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://github.com" target="_blank">
-                            <i class="fab fa-github"></i></a>
-                    </div>
-                    <div class="col-12 col-sm-4 text-right">
-                        Patrocinado por<br><a href="https://depcsuite.com" target="_blank">DePC Suite</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-
-
-        </footer>
     </div>
+
+    <?php include "footer.php"; ?>
 </body>
 
 </html>

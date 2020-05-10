@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="css/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/css/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/css/style.css">
@@ -43,7 +43,7 @@
         </nav>
         <section id="sobre mi">
             <div class="row">
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-6 my-5">
                     <h1>Sobre mi</h1>
                     <h2>Desarrollador Fullstack</h2>
                     <a href="" class="btn my-4" target="_blank">Descargar CV</a>
@@ -55,8 +55,8 @@
             </div>
             <div class="row my-sm-4 my-3">
                 <div class="col-sm-6 col-12 px-2 my-2">
-                    <div class="bg-white">
-                        <div class="p-3"><i class="fas fa-code"></i></div>
+                    <div class="bg-blanco">
+                        <div class="p-3 text-center"><i class="fas fa-code"></i></div>
                         <div class="row px-3">
                             <div class="col-12">
                                 <h3>PROGRAMACIÓN</h3>
@@ -71,8 +71,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-12 px-2 my-2">
-                    <div class="bg-white">
-                        <div class="p-3"><i class="fas fa-database"></i></div>
+                    <div class="bg-blanco">
+                        <div class="p-3 text-center"><i class="fas fa-database"></i></div>
                         <div class="row px-3">
                             <div class="col-12">
                                 <h3>BASE DE DATOS</h3>
@@ -86,8 +86,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-12 px-2 my-2">
-                    <div class="bg-white">
-                        <div class="icon"><i class="fas fa-language"></i></div>
+                    <div class="bg-blanco">
+                        <div class="icon text-center p-3"><i class="fas fa-language"></i></div>
                         <div class="row px-3">
                             <div class="col-12">
                                 <h3>IDIOMAS</h3>
@@ -95,14 +95,14 @@
                         </div>
                         <div class="row p-3">
                             <div class="col-12">
-                                <p>INGLES - Intermediate B1<br>ESPAÑOL - Nativo</p>
+                                <p>INGLES - Basico B2<br>ESPAÑOL - Nativo</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-12 px-2 my-2">
-                    <div class="bg-white">
-                        <div class="p-3"><i class="fas fa-window-restore"></i></div>
+                    <div class="bg-blanco">
+                        <div class="p-3 text-center"><i class="fas fa-window-restore"></i></div>
                         <div class="row px-3">
                             <div class="col-12">
                                 <h3>SOFTWARE</h3>
@@ -116,8 +116,8 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-12 px-2 my-2">
-                    <div class="bg-white">
-                        <div class="p-3"><i class="fas fa-puzzle-piece"></i></div>
+                    <div class="bg-blanco">
+                        <div class="p-3 text-center p-3"><i class="fas fa-puzzle-piece"></i></div>
                         <div class="row px-3">
                             <div class="col-12">
                                 <h3>HOBBIES</h3>
@@ -132,40 +132,9 @@
                 </div>
             </div>
         </section>
-
-
-
-
-
-
-
-
-
-
-        <footer>
-            <div class="container">
-                <div class="row py-sm-5">
-                    <div class="col-12 col-sm-4 text-left">
-                        <a href="inicio.php">©Todos los derechos reservados<br>2020</a>
-                    </div>
-                    <div class="col-12 col-sm-4 text-center">
-                        <a href="https://api.whatsapp.com/send?phone=541161421493&amp;text=Hola" target="_blank">
-                            <i class="fab fa-whatsapp"></i></a>
-                        <a href="https://www.linkedin.com/in/matias-martin-304a801a7/" target="_blank">
-                            <i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://github.com" target="_blank">
-                            <i class="fab fa-github"></i></a>
-                    </div>
-                    <div class="col-12 col-sm-4 text-right">
-                        Patrocinado por<br><a href="https://depcsuite.com" target="_blank">DePC Suite</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-
-
     </div>
+
+    <?php include "footer.php"; ?>
 </body>
 
 </html>

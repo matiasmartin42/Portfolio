@@ -117,3 +117,13 @@ footer i{
         line-height: 30px;
     }
 }
+.bg-blanco{
+    background-color: white;
+    height: 250px;
+}
+.bg-blanco i{
+    font-size: 45px;
+}
+span{
+    text-decoration: underline;
+}
