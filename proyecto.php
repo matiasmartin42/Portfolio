@@ -5,7 +5,6 @@
 ?>
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,10 +49,8 @@
                                 <a href="" class="btn">Ver online</a>
                             </div>
                             <div class="col-12 text-right">
-                                <a href="https://github.com/matiasmartin42">Codigo Fuente</a>
-                                
+                                <a href="https://github.com/matiasmartin42">Codigo Fuente</a>                               
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -101,9 +98,7 @@
                 </div>
             </div>
         </section>
-
     </div>
     <?php include "footer.php"; ?>
 </body>
-
 </html>
