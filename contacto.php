@@ -1,3 +1,8 @@
+<?php
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -17,8 +22,7 @@
 <body>
     <div class="container">
         <?php $page = "contacto";
-
-        include "nav.php"; ?>
+            include "nav.php"; ?>
         <section id="contacto">
             <div class="row py-5 px-2">
                 <div class="col-12 mt-1">
